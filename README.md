@@ -58,3 +58,48 @@ As an admin, I want to add students, so that their records are maintained in the
 
 ### US08 – Generate Reports
 As a principal, I want to generate attendance reports, so that I can monitor student attendance.
+
+
+
+## 6. Acceptance Criteria
+
+### AC01 – Student Login
+- Given: Student has a registered account.
+- When: Student enters valid username and password.
+- Then: System should allow the student to login.
+
+### AC02 – View Attendance
+- Given: Student is logged into the system.
+- When: Student clicks on View Attendance.
+- Then: System should display attendance records.
+
+### AC03 – Attendance Percentage
+- Given: Student attendance records are available.
+- When: Student opens the attendance percentage section.
+- Then: System should display the correct attendance percentage.
+
+### AC04 – Teacher Login
+- Given: Teacher has a registered account.
+- When: Teacher enters valid login credentials.
+- Then: System should open the teacher dashboard.
+
+### AC05 – Mark Attendance
+- Given: Teacher is logged in and has selected a class and date.
+- When: Teacher marks students as Present or Absent and submits.
+- Then: System should save the attendance records.
+
+### AC06 – Update Attendance
+- Given: An attendance record already exists.
+- When: Authorized teacher updates the attendance status.
+- Then: System should save the updated status.
+
+### AC07 – Add Students
+- Given: Admin is logged into the system.
+- When: Admin enters valid student details and clicks Save.
+- Then: System should add the student record.
+
+### AC08 – Generate Reports
+- Given: Attendance records are available.
+- When: Principal selects a date range and requests a report.
+- Then: System should generate the attendance report.
+-
